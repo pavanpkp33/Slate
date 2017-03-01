@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/draw_mode"
+        android:id="@+id/menuDraw" />
+    <item android:title="@string/move_mode"
+        android:id="@+id/menuMove" />
+    <item android:title="@string/delete_mode"
+        android:id="@+id/menuDelete" />
+    <item android:title="@string/select_color"
+        android:id="@+id/menuColor" >
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:title="@string/black"
+                android:id="@+id/colorBlack" />
+            <item android:title="@string/red"
+                android:id="@+id/colorRed" />
+            <item android:title="@string/blue"
+                android:id="@+id/colorBlue" />
+            <item android:title="@string/green"
+                android:id="@+id/colorGreen" />
+        </menu>
+    </item>
+
+</menu>
